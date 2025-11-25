@@ -23,6 +23,24 @@ button{
     padding: 0;
 }
 
+/* FONT DM SANS & SIGMAR */
+
+/* <weight>: Use a value from 100 to 1000
+<uniquifier>: Use a unique and descriptive class name */
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.sigmar-regular {
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.0;
+}
+
 /* Resto del CSS */
 
 body{
@@ -40,7 +58,7 @@ body{
 }
 
 .spacing-testo{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 button{
@@ -75,7 +93,7 @@ button{
     
      background-color: #5a75ff;
      margin: auto 48px;
-     padding: 48px;
+     padding: 36px;
      min-width: 200px;
      border-radius: 18px;
      position: relative;
@@ -102,4 +120,9 @@ button{
 
 article{
     margin-bottom: 48px;
+}
+
+.SecondaryTitle{
+    font-size: 32px;
+    max-width: 80%;
 }
