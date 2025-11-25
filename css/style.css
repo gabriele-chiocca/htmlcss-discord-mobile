@@ -105,17 +105,18 @@ button{
 
 .badgedecorativo-Occhi{
     position: absolute;
-    top: 100px;
-    left: 80px;
-    transform: translate(-37%, -89%) scale(0.3);
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -162%) scale(0.3);
 }
 
 
 .badgedecorativo-Discord{
     position: absolute;
-    top: 100px;
-    left: 80px;
-    transform: translate(-44%, -77%) scale(0.2);
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -125%) scale(0.2);
+
 }
 
 article{
