@@ -4,6 +4,7 @@ Reset per
 - Azzerare i padding
 - Impostare il box sizing di tipo border-box
 - Reset Dimensione immagine
+- Reset Button
 */
 
 * {
@@ -16,3 +17,57 @@ img{
     max-width: 100%;
     display: block;
 }
+
+button{
+    border: 0;
+    padding: 0;
+}
+
+/* Resto del CSS */
+
+body{
+    background-color: #001c81;
+    color: white;
+}
+
+.sezione-principale{
+     
+     margin: auto 48px;
+     padding: 48px;
+     text-align: center;
+     min-width: 200px;
+     
+}
+
+.spacing-testo{
+    margin-bottom: 8px;
+}
+
+button{
+    display: block;
+}
+
+.Button-primario{
+
+    margin: 16px auto;
+    line-height: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+    padding: 16px;
+    width: 100%;
+    box-shadow: #101010 3px 13px 10px 0.02px;
+}
+
+.Button-secondario{
+
+    margin: 16px auto;
+    line-height: 16px;
+    background-color: #5a75ff;
+    color: white;
+    border-radius: 18px;
+    padding: 16px;
+    width: 100%;
+    box-shadow: #101010 3px 13px 10px 0.02px;
+}
+
