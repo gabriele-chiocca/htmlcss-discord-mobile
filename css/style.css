@@ -5,6 +5,7 @@ Reset per
 - Impostare il box sizing di tipo border-box
 - Reset Dimensione immagine
 - Reset Button
+- Reset Video
 */
 
 * {
@@ -23,6 +24,10 @@ button{
     padding: 0;
 }
 
+video{
+    max-width: 100%;
+    display: block;
+}
 /* FONT DM SANS & SIGMAR */
 
 /* <weight>: Use a value from 100 to 1000
