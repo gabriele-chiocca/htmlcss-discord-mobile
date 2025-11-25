@@ -91,7 +91,8 @@ button{
 
 .card-container{
     
-     background-color: #5a75ff;
+     background: #7e82f7;
+     background: linear-gradient(90deg, rgba(126, 130, 247, 1) 0%, rgba(32, 58, 227, 1) 100%);
      margin: auto 48px;
      padding: 36px;
      min-width: 200px;
