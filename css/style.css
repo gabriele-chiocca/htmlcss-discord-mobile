@@ -55,10 +55,10 @@ body{
 
 .sezione-principale{
      
-     margin: auto 48px;
-     padding: 48px;
+     margin: 48px auto;
+     max-width: 300px;
      text-align: center;
-     min-width: 200px;
+     margin-top: 56px;
      
 }
 
@@ -111,17 +111,19 @@ button{
 
 .badgedecorativo-Occhi{
     position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -162%) scale(0.3);
+    top: 0%;
+    left: 50%;
+    width: 80px;
+    transform: translate(-50%, -50%);
 }
 
 
 .badgedecorativo-Discord{
     position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -125%) scale(0.2);
+    top: 0%;
+    left: 50%;
+    width: 80px;
+    transform: translate(-50%, -50%);
 
 }
 
